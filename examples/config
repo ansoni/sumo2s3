@@ -1,0 +1,22 @@
+{
+"sumo_api_jobs": "https://api.sumologic.com/api/v1/search/jobs",
+"open_jobs": 32,
+"apiKeyConcurrency": 4,
+"apiKeys": [
+   ["su....lr", "qvt...d6y"]
+],
+"cachefolder": "./exports",
+"start_date": "2021-10-09T00:00:00Z",
+"end_date": "2021-12-09T00:00:10Z",
+"increment":"60s",
+"aws_region": "us-east-1",
+"s3_bucket": "a-bucket",
+"s3_tmp_prefix":"tmp",
+"s3_prefix":"data",
+"filters": [
+  { 
+    "start_date": "1970-10-01T00:00:00Z",
+    "query": "*"
+  }
+ ]
+}
